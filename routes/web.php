@@ -4,32 +4,32 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/about', function () {
     return view('about');
-});
-
-Route::get('/booking', function () {
-    return view('booking');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/menu', function () {
-    return view('menu');
-});
+})->name('about');
 
 Route::get('/service', function () {
     return view('service');
-});
+})->name('service');
+
+Route::get('/menu', function () {
+    return view('menu');
+})->name('menu');
+
+Route::get('/booking', function () {
+    return view('booking');
+})->name('booking');
 
 Route::get('/team', function () {
     return view('team');
-});
+})->name('team');
 
 Route::get('/testimonial', function () {
     return view('testimonial');
-});
+})->name('testimonial');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
