@@ -7,88 +7,82 @@
 @endsection
 
 @section('content')
-<!-- Service Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
-            <h1 class="mb-5">Explore Our Services</h1>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                        <h5>Master Chefs</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+ <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>Layanan Kami</h5>
+                        <h1>Cara kami menolong anda</h1>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                        <h5>Quality Food</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <div class="service-item service-item-left">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="img/service-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Dianterin</h3>
+                            <p class="mb-4">Gua anter makanan nya ampe depan rumah lu tungguin aja ye tar gua samper</p>
+                           
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                        <h5>Online Order</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <div class="service-item service-item-right">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5 order-md-1 text-md-end">
+                        <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="img/service-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Disuapin & Dicium</h3>
+                            <p class="mb-4">Waduh sampe salting gitu customer nya rek</p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                        <h5>24/7 Service</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <div class="service-item service-item-left">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="img/service-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Ditemenin Fadil sampe habis</h3>
+                            <p class="mb-4">Seru banget kan rek</p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                        <h5>Master Chefs</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <div class="service-item service-item-right">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5 order-md-1 text-md-end">
+                        <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="img/service-4.jpg" alt="">
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                        <h5>Quality Food</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                        <h5>Online Order</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="service-item rounded pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                        <h5>24/7 Service</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Habis makan gratis balapan</h3>
+                            <p class="mb-4">Balapan sama mio seru nyooo</p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Service End -->
+    <!-- Service End -->
 @endsection

@@ -12,7 +12,7 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>KSB Blok E</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+696969</p>
+                <p class="mb-2"><i class="bi bi-whatsapp"></i> +696969</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>pawonreydi@gmail.com</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
